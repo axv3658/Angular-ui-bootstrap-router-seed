@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body ng-app="myApp">
+  <div ui-view></div>
+
+  <!-- Node modules import -->
+  <script src="../node_modules/angular/angular.js"></script>
+  <script src="../node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
+  <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+
+  <!-- App components import -->
+  <script src="app.js"></script>
+  <script src="routes.js"></script>
+  <script src="components/view1/view1.js"></script>
+  <script src="components/view2/view2.js"></script>
+</body>
+</html>
